@@ -8,7 +8,7 @@ int main() {
 // 为了避免玩一次游戏就退出程序，可以将代码放在循环中
 	while(1) {
 		printf("这是一个猜拳的小游戏，请输入你要出的拳头：\n");
-		printf("A:剪刀\nB:石头\nC:布\nD:不玩了\n");
+		printf("A:剪刀手\nB:石头拳\nC:布大王\nD:不玩了溜之大吉\n");
 		scanf("%c%*c",&gamer);
 		switch(gamer) {
 case65://A
